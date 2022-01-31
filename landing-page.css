@@ -1,0 +1,83 @@
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+/* header  */
+.nav-bar{
+    height:max-content;
+    padding: var(--padding-md);
+    margin-bottom: var(--margin-md);
+}
+.nav-bar .nav-logo{
+    border-bottom: 3px solid var(--clr-secondary);
+} 
+.nav-logo a{
+    color: var(--clr-primary);
+}
+.nav-bar #nav-toggle{
+    font-size: 1.8rem;
+    color: var(--clr-primary);
+    padding:0 var(--padding-md);
+}
+
+/* hero section */
+.hero-section{
+    height: 85vh;
+    width: 100%;
+    margin-bottom: var(--margin-xl);
+}
+.hero-img{
+    background: url(./Assets/maqui.png) center center no-repeat;
+    width: 100%;
+    height: 70%;
+}
+.hero-content{
+    color: var(--clr-primary);
+    text-align: center;
+    height: 30%;
+}
+.hero-content>*{
+    margin: var(--margin-sm);
+}
+
+
+/* installation section */
+.install-section{
+    margin-top: var(--margin-xxl);
+}
+.installation-content>*{
+    margin: var(--margin-md);
+}
+.installation-content h3{
+    color: var(--clr-primary);
+}
+/* iframe */
+.installation-code{
+    border: 2px solid var(--clr-secondary);
+    max-height: 300px;
+}
+.installation-code iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* footer */
+.footer{
+    margin-top: var(--margin-large);
+    padding: var(--padding-md);
+    height:max-content;
+    background-color: var(--clr-primary);
+    color: var(--clr-secondary);
+}
+.footer>*{
+    padding: var(--padding-sm);
+    color: var(--clr-secondary);
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+}

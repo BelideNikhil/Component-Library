@@ -10,6 +10,7 @@
 }
 .nav-bar .nav-logo{
     border-bottom: 3px solid var(--clr-secondary);
+    color: var(--clr-primary);
 }
 .nav-bar #nav-toggle{
     font-size: 1.8rem;

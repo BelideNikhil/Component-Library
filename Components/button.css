@@ -13,6 +13,7 @@
 }
 .btn i{
     margin-right:var(--margin-md);
+    color: currentColor;
 }
 
 /* main styles */

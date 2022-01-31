@@ -10,6 +10,8 @@
 }
 .nav-bar .nav-logo{
     border-bottom: 3px solid var(--clr-secondary);
+} 
+.nav-logo a{
     color: var(--clr-primary);
 }
 .nav-bar #nav-toggle{

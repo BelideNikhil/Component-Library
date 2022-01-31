@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>maqUI</title>
+    <link rel="icon" href="./Assets/maqui-logo.svg" type="image/svg">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./landing-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e057b28e7b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <!-- navbar -->
+        <div class="nav-bar flx-row-spc-btw">
+            <div class="nav-header">
+                <h1 class="nav-logo"><a href="./index.html">maqUI</a></h1>
+            </div>
+            <nav class="nav-actions">
+                <ul class="flx-row-spc-btw">
+                    <li><a href="#" class="btn btn-outline-primary" target="_blank">Docs</a></li>
+                    <li><a href="https://github.com/BelideNikhil/Component-Library" class="btn-icon btn-icon-primary" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <!-- mobile nav toggle button -->
+                    <li class="hide-content"><button class="btn-icon btn-icon-primary" id="nav-toggle"><i class="fas fa-bars"></i></button></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- hero-section -->
+        <section class="hero-section flx-clmn-center-center">
+            <div class="hero-img"></div>
+            <div class="hero-content">
+                <h2>A Library that is good on your eyes!</h2>
+                <a href="index.html#install-section" class="btn btn-solid-primary">Get Started.</a>
+            </div>
+        </section>
+        <!-- installation section -->
+        <div id="install-section" class="install-section grid-40-60">
+            <div class="installation-content">
+                <h3>How to start using MaqUI?</h3>
+                <p class="faded-font">Simple. Just copy the code present on the right side and paste it in the head tag of your html file and Volia!</p>
+            </div>
+            <div class="installation-code">
+                
+            </div>
+        </div>        
+    </div>
+     <!-- footer -->
+    <footer class="footer flx-clmn-center-center">
+        <nav class="footer-actions">
+            <ul class="flx-row-center-center">
+                <li><a href="https://twitter.com/Nikhil_Belide" class="btn-icon btn-icon-secondary" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/BelideNikhil" class="btn-icon btn-icon-secondary" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nikhilbelide/" class="btn-icon btn-icon-secondary" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </nav>
+        <p>Made with <span><i class="fas fa-brain"></i></span> by Nikhil Belide.</p>
+    </footer>
 </body>
 </html>

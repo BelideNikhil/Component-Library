@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+:root{
+    --clr-primary:#511281;
+    --clr-primary-faded:#d2afec;
+    --clr-secondary:#34cc78;
+    --clr-background:#f8f8f8;
+    --clr-whitesoke:whitesmoke;
+    --clr-black:#282828;
+
+    /* other colors */
+    --clr-success:#198754;
+    --clr-error:#dc3545;
+    --clr-warning:#ffc107;
+    --clr-confirm:#0d6efd;
+    /* font sizes */
+    --fs-small:10px;
+    --fs-large:22px;
+    /* font weights */
+    --fw-light-300:300;
+    --fw-normal-400:400;
+    --fw--semi-bold-500:500;
+    --fw-bold-600:600;
+    --fw-extra-bold-800:800;
+    /*  padding */
+    --padding-xs:0.375rem;
+    --padding-sm:0.5rem;
+    --padding-md:0.75rem;
+    --padding-normal:1rem;
+    --padding-large:1.5rem;
+    --padding-xlg:2rem;
+    /* margin */
+    --margin-xs:0.375rem;
+    --margin-sm:0.5rem;
+    --margin-md:0.75rem;
+    --margin-normal:1rem;
+    --margin-large:1.5rem;
+    --margin-xl:2rem;
+    --margin-xxl:3rem;
+}
+
+body{
+    min-height: 100vh;
+    line-height: 1.6;
+    background-color: var(--clr-background);
+}
+
+/*  */
+ul{
+    list-style: none;
+}
+a,button{
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+i{
+    pointer-events: none;
+}
+p{
+    color: var(--clr-black);
+}
+
+/* UTILS */
+.hide-content{
+    display: none;
+}
+
+/* flex utils */
+.flx-row-spc-btw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flx-row-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flx-clmn-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* grid */
+.grid-40-60{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 0.5rem;
+}
+@media screen and (max-width:700px) {
+    .grid-40-60{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
